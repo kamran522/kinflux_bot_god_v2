@@ -282,7 +282,7 @@ export async function handler(chatUpdate) {
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
-                    chat.sWelcome = 'hello am kinflux bot.A whatsapp bot created by kinflux digital'
+                    chat.sWelcome = 'hello am K A M I bot.A whatsapp bot created by Kamran Hasil'
                 if (!('sBye' in chat))
                     chat.sBye = ''
                 if (!('sPromote' in chat))
@@ -751,10 +751,10 @@ export async function participantsUpdate({ id, participants, action }) {
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://wallpapercave.com/wp/wp6591551.jpg';
-                  ppgp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
+                  pp = 'https://i.imgur.com/rmCgpTY.jpg';
+                  ppgp = 'https://i.imgur.com/rmCgpTY.jpg'; 
                 } finally {
-                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'AM KINFLUX BOT welcome, @user, ')
+                  let text = (chat.sWelcome || this.welcome || conn.welcome || 'AM  K A M I  BOT welcome, @user, ')
                     .replace('@group', await this.getName(id))
                     .replace('@desc', groupMetadata.desc?.toString() || 'Desconocido')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -795,14 +795,14 @@ export async function participantsUpdate({ id, participants, action }) {
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
-                  ppgp = 'https://wallpapercave.com/wp/wp6591551.jpg'; 
+                  pp = 'https://i.imgur.com/rmCgpTY.jpg'; 
+                  ppgp = 'https://i.imgur.com/rmCgpTY.jpg'; 
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
           
                   let nthMember = groupMetadata.participants.length;
-                  let secondText = `Goodbye, our ${nthMember}th group member.we will always miss you from kinflux bot`;
+                  let secondText = `Goodbye, our ${nthMember}th group member.we will always miss you from  K A M I  bot`;
           
                   let leaveApiUrl = `https://wecomeapi.onrender.com/leave-image?username=${encodeURIComponent(
                     await this.getName(user)
@@ -811,7 +811,7 @@ export async function participantsUpdate({ id, participants, action }) {
                   )}&memberCount=${encodeURIComponent(
                     nthMember.toString()
                   )}&avatar=${encodeURIComponent(pp)}&background=${encodeURIComponent(
-                    'https://telegra.ph/file/0b814069d86ee9a022da5.jpg'
+                    'https://i.imgur.com/rmCgpTY.jpg'
                   )}`;
           
                   try {
@@ -890,15 +890,15 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Bot moderators*',
-        premium: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴘʀᴇᴍɪᴜᴍ* • This command is for **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Premium members only',
-        group: '*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 *ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 active groups',
-        private: '* 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴀᴅᴍɪɴ* • This command is only for *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg kinflux.20*', 
+        rowner: '*ᴏɴʟʏ *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
+        owner: '*ᴏɴʟʏ *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
+        mods: '*ᴏɴʟʏ *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for **≡ 🎌KAMI  𝘽𝙊𝙏 🎌 Bot moderators*',
+        premium: '*ᴏɴʟʏ *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 ᴘʀᴇᴍɪᴜᴍ* • This command is for **≡ 🎌KAMI  𝘽𝙊𝙏 🎌 Premium members only',
+        group: '*≡ 🎌KAMI  𝘽𝙊𝙏 🎌 *ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 active groups',
+        private: '* 🎌KAMI  𝘽𝙊𝙏 🎌 ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 private chat of the Bot*',
+        admin: '*ᴏɴʟʏ ≡ 🎌KAMI  𝘽𝙊𝙏 🎌 ᴀᴅᴍɪɴ* • This command is only for *≡ 🎌KAMI  𝘽𝙊𝙏 🎌Group Admins*',
+        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command *≡ 🎌KAMI  𝘽𝙊𝙏 🎌 must be *Admin!*',
+        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg Kamran.20*', 
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
     }[type]
     if (msg) return m.reply(msg)
