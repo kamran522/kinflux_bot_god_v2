@@ -56,16 +56,16 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *KINFLUX DIGITAL*
-▢ whatsapp group link :
-  • https://chat.whatsapp.com/BLjStbNJvG2H7Z3hlDmv28
+  *Kamran hasil*
+▢ INSTAGRAM ID :
+  • kamran_.hasil
 ▢ GitHub :
-  • https://github.com/kinflux_bot_God_v2
-▢ Telegram : 
-  • t.me/kinflux_bot 
+  • kamran522
+▢ FACEBOOK : 
+  • Kamran Hasil
 ▢ owner number : 
-  • wa.me/254110377776
-  • wa.me/22589747147
+  • wa.me/923323963788
+  • NO CALLS PLEASE
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
