@@ -5,8 +5,8 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   global.db.data.users[m.sender].pickaxe = global.db.data.users[m.sender].pickaxe || 0
   global.db.data.users[m.sender].pedang = global.db.data.users[m.sender].pedang || 0
   global.db.data.users[m.sender].fishingrod = global.db.data.users[m.sender].fishingrod || 0
-  let botol = 'Guru'
-  let wm = 'Asliguru'
+  let botol = 'KAMI'
+  let wm = 'K A M I'
 
 let lgocraft = `
 █▀▀▀▀█▀▀▀█▀▀▀▀█

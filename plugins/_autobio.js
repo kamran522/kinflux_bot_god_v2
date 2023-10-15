@@ -12,7 +12,7 @@ let _muptime
       }) * 1000
     }
     let muptime = clockString(_muptime)
-		let bio = `\n🤖 kinflux bot Active forever\n\n ┃ 💦`
+		let bio = `\n🤖 24/7 ALIVE MERI JAN . TYPE .menu FOR DETAILS\n\n ┃ 💦`
 		await this.updateProfileStatus(bio).catch(_ => _)
 		setting.status = new Date() * 1
 

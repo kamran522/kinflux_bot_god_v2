@@ -16,11 +16,11 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         }
         await conn.reply(m.chat, `
          ╭───•✧✧•───╮
-   *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+   *≡ 🎌KAMI  𝘽𝙊𝙏 🎌*
          ╰───•✧✧•───╯
         *≡ Link Detected*
             
-We do not allow links from other groups *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌*
+We do not allow links from other groups *≡ 🎌KAMI  𝘽𝙊𝙏 🎌*
 I'm sorry *@${m.sender.split('@')[0]}*  you will be kicked out of the group ${isBotAdmin ? '' : '\n\nIM not an admin so I canT expel you :"v'}`, null, { mentions: [m.sender] } )
         if (isBotAdmin && chat.antiLink) {
         	await conn.sendMessage(m.chat, { delete: m.key })
